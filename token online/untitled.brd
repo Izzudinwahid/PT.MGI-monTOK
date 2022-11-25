@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -162,6 +162,36 @@
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-8" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="0" x2="0" y2="50" x3="-26" y3="25" textsize="1.778" layer="1"/>
+<text x="41.83163125" y="47.811678125" size="0.6096" layer="21" ratio="12" distance="55">+5V</text>
+<text x="42.0067625" y="45.197171875" size="0.6096" layer="21" ratio="12" distance="55">GND</text>
+<text x="41.944215625" y="42.632703125" size="0.6096" layer="21" ratio="12" distance="55">+12V</text>
+<text x="32.349459375" y="42.595175" size="0.6096" layer="21" ratio="12" distance="55">SCL</text>
+<text x="32.1368" y="45.434853125" size="0.6096" layer="21" ratio="12" distance="55">SDA</text>
+<text x="42.075540625" y="11.68035625" size="0.6096" layer="21" ratio="12" distance="55">P1</text>
+<text x="34.67516875" y="11.635315625" size="0.6096" layer="21" ratio="12" distance="55">P1G</text>
+<text x="42.075540625" y="14.052459375" size="0.6096" layer="21" ratio="12" distance="55">P2</text>
+<text x="34.67516875" y="14.262646875" size="0.6096" layer="21" ratio="12" distance="55">P2G</text>
+<text x="42.030509375" y="16.784884375" size="0.6096" layer="21" ratio="12" distance="55">P3</text>
+<text x="34.480028125" y="16.75485625" size="0.6096" layer="21" ratio="12" distance="55">P3G</text>
+<text x="43.957803125" y="18.964553125" size="0.6096" layer="21" ratio="12" distance="55">P4</text>
+<text x="34.31433125" y="19.26729375" size="0.6096" layer="21" ratio="12" distance="55">P4G</text>
+<text x="42.011809375" y="21.75409375" size="0.6096" layer="21" ratio="12" distance="55">P5</text>
+<text x="34.335953125" y="21.75409375" size="0.6096" layer="21" ratio="12" distance="55">P5G</text>
+<text x="41.9901875" y="24.284140625" size="0.6096" layer="21" ratio="12" distance="55">P6</text>
+<text x="34.508928125" y="23.9814" size="0.6096" layer="21" ratio="12" distance="55">P6G</text>
+<text x="41.968565625" y="26.74931875" size="0.6096" layer="21" ratio="12" distance="55">P7</text>
+<text x="34.40989375" y="26.82256875" size="0.6096" layer="21" ratio="12" distance="55">P7G</text>
+<text x="41.97695625" y="29.03441875" size="0.6096" layer="21" ratio="12" distance="55">P8</text>
+<text x="34.1919125" y="29.345946875" size="0.6096" layer="21" ratio="12" distance="55">P8G</text>
+<text x="41.914675" y="31.58895" size="0.6096" layer="21" ratio="12" distance="55">P9</text>
+<text x="34.56559375" y="31.993934375" size="0.6096" layer="21" ratio="12" distance="55">P9G</text>
+<text x="41.703371875" y="33.150034375" size="0.6096" layer="21" ratio="12" distance="55">CANCEL</text>
+<text x="31.555453125" y="34.645640625" size="0.6096" layer="21" ratio="12" distance="55">CANCEL G</text>
+<text x="41.896378125" y="36.899153125" size="0.6096" layer="21" ratio="12" distance="55">P0</text>
+<text x="34.225840625" y="37.25826875" size="0.6096" layer="21" ratio="12" distance="55">P0G</text>
+<text x="41.8066625" y="38.64984375" size="0.6096" layer="21" ratio="12" distance="55">ENTER
+</text>
+<text x="32.207278125" y="39.547634375" size="0.6096" layer="21" ratio="12" distance="55">ENTER G</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -649,7 +679,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN General Purpose Amplifier Surface Mount " x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="BCW31" x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.5001625" y="13.081059375" size="1.271240625" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BCW31/?ref=eda" x="54.997021875" y="-91.6958" size="1.778" layer="27" display="off"/>
@@ -659,7 +688,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN General Purpose Amplifier Surface Mount " x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="BCW31" x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.5361" y="12.621928125" size="1.271240625" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BCW31/?ref=eda" x="62.462959375" y="-92.15493125" size="1.778" layer="27" display="off"/>
@@ -669,7 +697,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN General Purpose Amplifier Surface Mount " x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="BCW31" x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.78570625" y="13.032403125" size="1.271240625" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BCW31/?ref=eda" x="70.142565625" y="-91.74445625" size="1.778" layer="27" display="off"/>
@@ -679,7 +706,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Bipolar (BJT) Transistor NPN General Purpose Amplifier Surface Mount " x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="BCW31" x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.93594375" y="13.01439375" size="1.271240625" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BCW31/?ref=eda" x="77.722803125" y="-91.762465625" size="1.778" layer="27" display="off"/>
@@ -727,31 +753,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="4.40291875" y="4.464078125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="16.0074" y="17.584271875" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.9914" y="16.568271875" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="19.267040625" y="12.708315625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.2934" y="16.568271875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="13.953325" y="17.5764875" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.937325" y="16.5604875" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="16.879015625" y="12.67175625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="16.239325" y="16.5604875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="11.88553125" y="17.593653125" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.86953125" y="16.577653125" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="14.61015625" y="12.693509375" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.17153125" y="16.577653125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="9.832778125" y="17.589125" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.816778125" y="16.573125" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.18278125" y="12.6763625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.118778125" y="16.573125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="7.76801875" y="17.58570625" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.75201875" y="16.56970625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.71835625" y="12.791303125" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="10.05401875" y="16.56970625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="5.734575" y="17.584921875" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.718575" y="16.568921875" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.37731875" y="12.793384375" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.020575" y="16.568921875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="3.688" y="17.5811625" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.672" y="16.5651625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="4.939221875" y="12.797890625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="5.974" y="16.5651625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="" x="13.804259375" y="5.470928125" smashed="yes" rot="R90">
@@ -759,12 +785,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.090259375" y="4.454928125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP13" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X12" package3d_urn="urn:adsk.eagle:package:22420/2" value="" x="38.847459375" y="25.90155" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.672459375" y="10.66155" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="3" x="38.847459375" y="25.90155" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.292459375" y="10.66155" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="38.809128125" y="45.4995" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.634128125" y="41.6895" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="62" x="38.809128125" y="45.4995" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.254128125" y="41.6895" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1339,6 +1363,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
