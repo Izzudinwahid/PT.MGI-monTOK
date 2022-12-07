@@ -167,6 +167,31 @@
 <text x="41.944215625" y="42.632703125" size="0.6096" layer="21" ratio="12" distance="55">+12V</text>
 <text x="32.349459375" y="42.595175" size="0.6096" layer="21" ratio="12" distance="55">SCL</text>
 <text x="32.1368" y="45.434853125" size="0.6096" layer="21" ratio="12" distance="55">SDA</text>
+<text x="42.075540625" y="11.68035625" size="0.6096" layer="21" ratio="12" distance="55">P1</text>
+<text x="34.67516875" y="11.635315625" size="0.6096" layer="21" ratio="12" distance="55">P1G</text>
+<text x="42.075540625" y="14.052459375" size="0.6096" layer="21" ratio="12" distance="55">P2</text>
+<text x="34.67516875" y="14.262646875" size="0.6096" layer="21" ratio="12" distance="55">P2G</text>
+<text x="42.030509375" y="16.784884375" size="0.6096" layer="21" ratio="12" distance="55">P3</text>
+<text x="34.480028125" y="16.75485625" size="0.6096" layer="21" ratio="12" distance="55">P3G</text>
+<text x="43.957803125" y="18.964553125" size="0.6096" layer="21" ratio="12" distance="55">P4</text>
+<text x="34.31433125" y="19.26729375" size="0.6096" layer="21" ratio="12" distance="55">P4G</text>
+<text x="42.011809375" y="21.75409375" size="0.6096" layer="21" ratio="12" distance="55">P5</text>
+<text x="34.335953125" y="21.75409375" size="0.6096" layer="21" ratio="12" distance="55">P5G</text>
+<text x="41.9901875" y="24.284140625" size="0.6096" layer="21" ratio="12" distance="55">P6</text>
+<text x="34.508928125" y="23.9814" size="0.6096" layer="21" ratio="12" distance="55">P6G</text>
+<text x="41.968565625" y="26.74931875" size="0.6096" layer="21" ratio="12" distance="55">P7</text>
+<text x="34.40989375" y="26.82256875" size="0.6096" layer="21" ratio="12" distance="55">P7G</text>
+<text x="41.97695625" y="29.03441875" size="0.6096" layer="21" ratio="12" distance="55">P8</text>
+<text x="34.1919125" y="29.345946875" size="0.6096" layer="21" ratio="12" distance="55">P8G</text>
+<text x="41.914675" y="31.58895" size="0.6096" layer="21" ratio="12" distance="55">P9</text>
+<text x="34.56559375" y="31.993934375" size="0.6096" layer="21" ratio="12" distance="55">P9G</text>
+<text x="41.665553125" y="34.5173125" size="0.6096" layer="21" ratio="12" distance="55">P10</text>
+<text x="34.06735" y="34.735384375" size="0.6096" layer="21" ratio="12" distance="55">P10G</text>
+<text x="41.896378125" y="36.899153125" size="0.6096" layer="21" ratio="12" distance="55">P0</text>
+<text x="34.225840625" y="37.25826875" size="0.6096" layer="21" ratio="12" distance="55">P0G</text>
+<text x="41.8066625" y="38.64984375" size="0.6096" layer="21" ratio="12" distance="55">ENTER
+</text>
+<text x="32.207278125" y="39.547634375" size="0.6096" layer="21" ratio="12" distance="55">ENTER G</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1338,6 +1363,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

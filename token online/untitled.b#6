@@ -162,6 +162,11 @@
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-8" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="0" x2="0" y2="50" x3="-26" y3="25" textsize="1.778" layer="1"/>
+<text x="41.83163125" y="47.811678125" size="0.6096" layer="21" ratio="12" distance="55">+5V</text>
+<text x="42.0067625" y="45.197171875" size="0.6096" layer="21" ratio="12" distance="55">GND</text>
+<text x="41.944215625" y="42.632703125" size="0.6096" layer="21" ratio="12" distance="55">+12V</text>
+<text x="32.349459375" y="42.595175" size="0.6096" layer="21" ratio="12" distance="55">SCL</text>
+<text x="32.1368" y="45.434853125" size="0.6096" layer="21" ratio="12" distance="55">SDA</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

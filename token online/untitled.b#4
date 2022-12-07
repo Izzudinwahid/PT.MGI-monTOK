@@ -764,7 +764,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.292459375" y="10.66155" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="38.809128125" y="45.4995" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.634128125" y="41.6895" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="62" x="38.809128125" y="45.4995" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.254128125" y="41.6895" size="1.27" layer="27" rot="R90"/>
 </element>
